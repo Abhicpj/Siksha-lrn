@@ -1,0 +1,12 @@
+
+/* CSS styles for the header */
+header {
+	margin: 10px 0px;
+	background-color: #6fc4a0dd;
+	color: #fff;
+	padding: 4px 10px;
+	text-align: center;
+	border: 2px dotted red;
+}
+
+
