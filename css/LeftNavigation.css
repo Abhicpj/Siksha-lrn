@@ -1,0 +1,69 @@
+/* steps
+	1. create  navbar -> dropdown button -> (navmenu)navigation options in html
+	2. Dropdown will
+*/
+
+
+
+
+
+/* Css Element selector  */
+body {
+	background-color:antiquewhite;
+	font-family: 'Times New Roman', Times, serif;
+	
+}
+
+/* CSS class selector  */
+.navbar {
+	background-color: darkcyan;
+	position: relative;
+	display:inline-block;
+}
+
+
+
+
+/* Dropdown Button  */
+#dropbtn  {
+	background-color: #12af00; /* Green */
+	border: none;
+	color: white;
+	padding: 15px 60px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	cursor:pointer;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.navmenu {
+	display: none;
+	position: absolute;
+	min-width: 160px;
+	z-index: 1;
+	border: 5px dashed #12af00;
+	
+}
+	/* Links inside the dropdown */
+	.navmenu a {
+		color: black;
+		padding: 12px 16px;
+		text-decoration: none;
+		display: block;
+		
+	}
+
+/* Change color of dropdown links and display the block on hover */
+.navbar:hover .navmenu  {
+	display: block;	
+	position: relative;
+}
+
+.navmenu a:hover {
+	background-color: #abf1ea;
+}
+
+
+/* CSS ID selector */
