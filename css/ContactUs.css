@@ -1,0 +1,21 @@
+
+.container {
+	background-color: #deded7;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 10px;
+	margin: 10px auto;
+	
+	
+}
+
+.tiles {
+	background-color: cadetblue;
+	padding: 20px;
+	margin: 20px;
+	border: 2px solid #808080;
+	width: 300px;
+	color: white;
+	text-align: center;
+	
+}

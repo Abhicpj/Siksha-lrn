@@ -4,33 +4,52 @@
 <head>
     <meta charset="utf-8" />
     <title>Contact us</title>
-
+    <link  rel="stylesheet" href="../css/ContactUs.css" />
 </head>
 
 <body>
 
-    <h1 style="color:brown ; text-align:center ; text-underline-offset:auto"> Siksha4u.in</h1>
-    <link rel="icon" type="image/x-icon" href="image\Title_icon.jpg">
-    <h2> Contact us Page</h2>
+    <script src="..\JavaScript\header1.js"></script>
 
-    <div class="topnav">
-        <a href="../home.html">Home</a>
-        <a href="#news">News</a>
-        <a href="about.html">About</a>
-        <a href="mailto:bruce@example.com">mail me</a>
+    <div class="container">
+
+        <div class="tiles">
+            <h2 class="subtitle">By Phone</h2>
+            <p class="desc">
+                <small>(Monday to Friday, 9am to 6pm IST)</small>
+                <br>
+                delhi Toll-Free:<br>
+                001122344XX
+                <br><br>
+                Noida Center:<br>
+                001122344XX
+            </p>
+        </div>
+        <div class="tiles">
+            <h2> Address:</h2>
+            <p>
+                c29, aplha1 market <br />
+                Sector 142, Greater Noid <br />
+                Uttar pradesh, 233231    <br />
+                <b>mail to : </b> abhishekcpj@gmail.com
+            </p>
+
+        </div>
+        <div class="tiles">
+            <h2 class="subtitle">Submite your query</h2>
+            <p class="desc">
+                <label>Comments</label>
+                <input  placeholder="Please write here" />  <br />
+                <label>Email   </label>
+                <input placeholder="Enter your Email" />   <br />
+                <button onclick="message()">Submite</button>
+            </p>
+        </div>
     </div>
-
-
-    <h3 style= "text-align:center"> How can we help?</h3>
-
-    <p style="padding:7px 140px ; text-align:center">
-        <b> Address:</b>
-        <br />
-        c29, aplha1 market <br />
-        Sector 142, Greater Noid <br />
-        Uttar pradesh, 233231    <br />
-        <b>mail to : </b> abhishekcpj@gmail.com
-
-    </p>
+    <script>
+		function message() {
+            alert("feedback submitted!!");
+        }
+    </script>
 </body>
 </html>
