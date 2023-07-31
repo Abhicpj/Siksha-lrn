@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\html"
+    "\\css",
+    "\\html",
+    "\\html\\Technical\\UI designing",
+    "\\JavaScript"
   ],
+  "SelectedNode": "\\JavaScript\\header1.js",
   "PreviewInSolutionExplorer": false
 }

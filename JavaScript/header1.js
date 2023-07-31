@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 	<!-         this is navigation section   >
 	<div class="topnav">
-		<a class="active" href="\index.html">Home</a>
+		<a class="active" href="http://goabhi.online/">Home</a>
 		<a href="Educational.html">Educational</a>
 		<a href="ContactUs.html">Contact</a>
 		<a href="about.html">About</a>
